@@ -6,9 +6,11 @@ pyvenv.cfg
 Lib/
 Scripts/
 
+django-social-media-template/
+
 .idea
 */migrations/__pycache__/
-*/migrations/
+
 
 */__pycache__/
 *.pyc
