@@ -1,7 +1,7 @@
 from django.contrib import admin
 from django.contrib.auth.admin import UserAdmin as BaseUserAdmin
 from core.models import User
-
+from application.models import Post, Comment, Like
 
 class UserAdmin(BaseUserAdmin):
     model = User
@@ -26,3 +26,6 @@ class UserAdmin(BaseUserAdmin):
 
 
 admin.site.register(User, UserAdmin)
+admin.site.register(Post)
+admin.site.register(Comment)
+admin.site.register(Like)
